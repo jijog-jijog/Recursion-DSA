@@ -5,6 +5,7 @@ public class countnumbers {
         int count = 0;
 
         for (String a : words){
+
             if (allowd.contains(a)){
 
                 count++;
