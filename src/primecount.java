@@ -14,7 +14,6 @@ public class primecount {
                 }
                 val = val>>1;
             }
-//            System.out.println(count);
             if (isboolean(count)){
                 pricount++;
             }
