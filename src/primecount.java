@@ -2,8 +2,9 @@ public class primecount {
     public static void main(String[] args) { 
         int left = 6;
         int right = 10;
-        int pricount = 0; 
         
+        int pricount = 0; 
+
         for (int i = left; i<=right; i++){
 
             int val = i;
