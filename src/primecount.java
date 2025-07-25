@@ -10,7 +10,6 @@ public class primecount {
         for (int i = left; i<=right; i++){
 
             int val = i;
-
             int count = 0;
             while(val > 0){
                 if ((val&1)==1){
