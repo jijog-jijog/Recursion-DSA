@@ -12,7 +12,6 @@ public class primecount {
             int val = i;
 
             int count = 0;
-
             while(val > 0){
                 if ((val&1)==1){
 
