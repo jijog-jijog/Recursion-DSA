@@ -21,9 +21,10 @@ public class primecount {
                     count++;
                 }
                 val = val>>1;
-                
+
             }
             if (isboolean(count)){
+                
 
                 pricount++;
             }
