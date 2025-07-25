@@ -1,6 +1,5 @@
 public class primecount {
     public static void main(String[] args) { 
-
         int left = 6;
 
         int right = 10;
@@ -24,7 +23,7 @@ public class primecount {
 
             }
             if (isboolean(count)){
-                
+
 
                 pricount++;
             }
