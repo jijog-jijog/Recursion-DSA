@@ -18,7 +18,6 @@ public class primecount {
                 pricount++;
             }
 
-
         }
         System.out.println(pricount);
     }
