@@ -3,7 +3,7 @@ public class primecount {
         int left = 6;
         int right = 10;
         int pricount = 0; 
-        for (int i = left; i<=right; i++)
+        for (int i = left; i<=right; i++){
             int val = i;
             int count = 0;
             while(val > 0){
