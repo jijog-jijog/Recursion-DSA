@@ -1,5 +1,6 @@
 public class primecount {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
+        
         int left = 6;
         int right = 10;
         int pricount = 0; 
