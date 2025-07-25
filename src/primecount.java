@@ -16,7 +16,6 @@ public class primecount {
             if (isboolean(count)){
 
                 pricount++;
-
             }
 
 
