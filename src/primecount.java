@@ -12,6 +12,7 @@ public class primecount {
                 }
                val = val>>1;
             }
+            
             if (isboolean(count)){
                 pricount++;
             }
@@ -24,7 +25,7 @@ public class primecount {
         }
 
         for (int i =2; i*i<=n; i++){
-            
+
             if (n % i == 0){
                 return false;
             }
