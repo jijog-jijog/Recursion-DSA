@@ -10,7 +10,7 @@ public class primecount {
                 if ((val&1)==1){
                     count++;
                 }
-                val = val>>1;
+               val = val>>1;
 
             }
             if (isboolean(count)){
