@@ -4,7 +4,8 @@ public class recurclass {
     public static void main(String[] args) {
         int n = 5;
 //        ftz(n);
-        ztf(n);
+//        ztf(n);
+        System.out.println(fact(n));
     }
      static void ftz(int n){
         if (n==0){
@@ -20,5 +21,16 @@ public class recurclass {
         }
         ztf(n-1);
         System.out.println(n);
+
+
     }
+
+    static int fact(int n){
+        if (n <= 1){
+            return 1;
+        }
+
+        return fact((n) * fact(n-1));
+    }
+
 }
