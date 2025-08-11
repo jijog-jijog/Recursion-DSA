@@ -11,9 +11,9 @@ public class reverseint {
         }
 //        System.out.print(n%10);
 
-        if (n == reverse(n)){
+//        if (n == reverse(n)){
             return true;
         }
-        reverse(n/10);
-    }
+//        reverse(n/10);
+//    }
 }
